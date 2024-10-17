@@ -1,0 +1,6 @@
+go to /src/content/(blog|interviews|books)
+create .md file
+
+git add -A 
+git commit -m 'Add post'
+git push
