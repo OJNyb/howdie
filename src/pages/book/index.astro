@@ -74,8 +74,8 @@ const posts = (await getCollection("book")).sort(
           {
             posts.map((post) => (
               <li>
-                <a href={`/howdie/book/${post.slug}/`}>
-                  <img src={"/howdie" + post.data.heroImage} alt="" />
+                <a href={`/book/${post.slug}/`}>
+                  <img src={post.data.heroImage} alt="" />
                   <h4 class="title">{post.data.title}</h4>
                 </a>
               </li>

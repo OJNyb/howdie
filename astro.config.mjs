@@ -7,6 +7,5 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://ojnyb.github.io",
-  base: "/howdie",
   integrations: [mdx(), sitemap()],
 });
