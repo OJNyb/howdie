@@ -2,7 +2,7 @@
 title: "Exit The Cave"
 description: "Ending the Reincarnation Trap - Book 1"
 pubDate: "Jul 08 2022"
-heroImage: "/photo-1560403442-d141ff60800d.jpg"
+heroImage: "/ExitTheCaveCover.png"
 ---
 
 Most people will say something feels terribly wrong… with reality, the world, life. Why is that? Because something is wrong. This whole experience called “life on Earth” is a falsified lie.

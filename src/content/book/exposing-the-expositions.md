@@ -1,5 +1,5 @@
 ---
-title: "Exposing the Expositions - Ancient Rome in America?"
+title: "Exposing the Expositions"
 description: "Original Detail On Exposing The Expositions"
 pubDate: "Jul 08 2020"
 heroImage: "/exposing-the-expositions.jpg"

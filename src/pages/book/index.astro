@@ -26,28 +26,20 @@ const posts = (await getCollection("book")).sort(
         list-style-type: none;
         margin: 0;
         padding: 0;
+        justify-content: space-evenly;
+        gap: 40px;
       }
       ul li {
-        width: calc(50% - 1rem);
+        /* width: calc(50% - 1rem); */
+        max-width: 200px;
       }
       ul li * {
         text-decoration: none;
         transition: 0.2s ease;
       }
-      ul li:first-child {
-        width: 100%;
-        margin-bottom: 1rem;
-        text-align: center;
-      }
-      ul li:first-child img {
-        width: 100%;
-      }
-      ul li:first-child .title {
-        font-size: 2.369rem;
-      }
+
       ul li img {
         margin-bottom: 0.5rem;
-        border-radius: 12px;
       }
       ul li a {
         display: block;
@@ -56,6 +48,9 @@ const posts = (await getCollection("book")).sort(
         margin: 0;
         color: rgb(var(--black));
         line-height: 1;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 400;
       }
       .date {
         margin: 0;
@@ -65,23 +60,9 @@ const posts = (await getCollection("book")).sort(
       ul li a:hover .date {
         color: rgb(var(--accent));
       }
-      ul a:hover img {
-        box-shadow: var(--box-shadow);
-      }
-      @media (max-width: 720px) {
-        ul {
-          gap: 0.5em;
-        }
-        ul li {
-          width: 100%;
-          text-align: center;
-        }
-        ul li:first-child {
-          margin-bottom: 0;
-        }
-        ul li:first-child .title {
-          font-size: 1.563em;
-        }
+
+      ul a:hover .title {
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -94,16 +75,8 @@ const posts = (await getCollection("book")).sort(
             posts.map((post) => (
               <li>
                 <a href={`/howdie/book/${post.slug}/`}>
-                  <img
-                    width={720}
-                    height={360}
-                    src={"/howdie" + post.data.heroImage}
-                    alt=""
-                  />
+                  <img src={"/howdie" + post.data.heroImage} alt="" />
                   <h4 class="title">{post.data.title}</h4>
-                  <p class="date">
-                    <FormattedDate date={post.data.pubDate} />
-                  </p>
                 </a>
               </li>
             ))
