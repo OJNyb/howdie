@@ -2,6 +2,7 @@
 title: "Nantes, France - Alchemic and Egyptian symbolism"
 heroImage: "/blog/nantes/nant10.jpg"
 pubDate: "Oct 26 2019"
+description: ""
 ---
 
 A very amazing sculpture that can be found in the Cathedral of St. Peter in Nantes. Not only is it an amazing Renaissance work of art, made out of Carrara marble by sculptor Michael Colombe, but contains a treasure trove of alchemic and Egyptian symbolism. I literally spent three hours just examining and photographing it, so as to fully enjoy the fine carving and the detail of the symbolism. As of yet no analysis appears on the internet on this sarcophagus, save a small page on Wikipedia, hence my reason to produce this article for all of you.

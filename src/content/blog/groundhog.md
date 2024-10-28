@@ -2,6 +2,7 @@
 title: "Phil's Deal in the movie Groundhog Day (1993)"
 heroImage: "/blog/groundhog.jpeg"
 pubDate: "Jan 5 2024"
+description: ""
 ---
 
 One movie that many of you know that I have used as a metaphor for a long while is Groundhog Day starring Bill Murray as Phil Connors. I discussed it in my book Falling For Truth about the awakening process, of how the process includes much more trauma and less fun along the way than most think. However, I may have been fooled by the underlying message of the movie. The real message here is about soul-reincarnation traps that Exit the Cave is all about. One thing all can agree on is Phil Connors is in hell, Schopenhauer's prison. Actually he behaves in a very Schopenhauer like way. The questions are who put him in this prison, and does he actually get out?

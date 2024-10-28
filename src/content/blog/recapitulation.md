@@ -2,6 +2,7 @@
 title: "Recapitulation"
 heroImage: "/blog/recapitulation.jpeg"
 pubDate: "Jun 15 2020"
+description: ""
 ---
 
 "The things that are holding you up personally are the negative things that have happened to you." (Richard Rose)

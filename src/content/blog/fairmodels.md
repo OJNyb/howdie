@@ -2,6 +2,7 @@
 title: "Were the World Fairs Models?"
 heroImage: "/blog/world-fair.PNG"
 pubDate: "Feb 23 2023"
+description: ""
 ---
 
 This will probably be the last thing I write about the World Fairs, not because there is not so much more to dig into and write about, but simply because there comes a time when you realize, that answers are impossible. Knowing what happened in history is actually not possible. This subject (alternative history) has been taken to new levels the last ten years, and had millions of people interested in looking into the past with fresh eyes.
