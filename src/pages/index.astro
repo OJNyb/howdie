@@ -44,6 +44,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
     box-sizing: border-box;
     text-decoration: none;
   }
+  .community p {
+    max-width: 560px;
+  }
   .community a:hover {
     text-decoration: underline;
   }
@@ -52,7 +55,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 64px;
+    column-gap: 64px;
+    row-gap: 12px;
     padding: 0 64px;
   }
   .social-link {
@@ -80,16 +84,16 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
     <Header />
     <main>
       <section class="community">
-        <img src="cave.jpg" width="540" />
+        <img src="cave.jpg" width="560" />
         <div>
           <h2>Exit the Cave discussions</h2>
           <p>
-            This community is a way to share information and challenges<br /> in
-            our understanding, as we exit Plato's Cave.
+            This community is a way to share information and challenges in our
+            understanding, as we exit Plato's Cave.
           </p>
           <p>
-            You will find new information on the subject, personal stories <br
-            />and insights on books and movies around understanding reality.
+            You will find new information on the subject, personal stories and
+            insights on books and movies around understanding reality.
           </p>
 
           <br />
