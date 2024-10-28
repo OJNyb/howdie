@@ -5,11 +5,12 @@
  */
 
 :root {
-  --accent: #222225;
+  --accent: #252222;
   --black: 15, 18, 25;
-  --gray: 96, 115, 159;
+  --gray: 112, 105, 104;
+  --test: rgb(112, 105, 104);
   --gray-light: 229, 233, 240;
-  --gray-dark: 34, 41, 57;
+  --gray-dark: 46, 40, 40;
   --gray-gradient: rgba(var(--gray-light), 50%), #fff;
   --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
     0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
@@ -40,12 +41,10 @@ body {
   color: rgb(var(--gray-dark));
   font-size: 20px;
   line-height: 1.7;
+  min-height: 100dvh;
 }
 main {
-  width: 720px;
-  max-width: calc(100% - 2em);
   margin: auto;
-  padding: 3em 1em;
 }
 h1,
 h2,
@@ -103,7 +102,6 @@ table {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
 }
 code {
   padding: 2px 5px;
@@ -127,12 +125,10 @@ hr {
   border: none;
   border-top: 1px solid rgb(var(--gray-light));
 }
+
 @media (max-width: 720px) {
   body {
     font-size: 18px;
-  }
-  main {
-    padding: 1em;
   }
 }
 

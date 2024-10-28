@@ -1,8 +1,8 @@
 ---
 title: "Exit The Cave"
 description: "Ending the Reincarnation Trap - Book 1"
-pubDate: "Jul 08 2022"
 heroImage: "/ExitTheCaveCover.png"
+pubDate: "Jul 09 2022"
 ---
 
 Most people will say something feels terribly wrong… with reality, the world, life. Why is that? Because something is wrong. This whole experience called “life on Earth” is a falsified lie.
@@ -14,8 +14,6 @@ Exit the Cave takes a candid exploration into the reincarnation trap, by unpacki
 [SAMPLE CHAPTER](<https://coachtestprep.s3.amazonaws.com/direct-uploads/user-320952/59e0eff7-bd58-46b2-800b-83079fc73afe/SAMPLE%20CHAPTER%20(Exit%20the%20Cave).pdf>)
 
 ## Table of Contents
-
-Note
 
 ### A FOUNDATION
 
@@ -31,21 +29,23 @@ Note
 
 ### B EXPLORING
 
-- It’s Curtains For You
-- They Live in a Dark City, Lost, with their Eyes Wide Shut
+7. It’s Curtains For You
+8. They Live in a Dark City, Lost, with their Eyes Wide Shut
+
 - Exploring Contemplation
-- Non-standard Near-Death Experiences
-- Prayer
-- Spiritual Warfare
-- Lucid Dreaming
-- I’m a Soul, Man
+
+9. Non-standard Near-Death Experiences
+10. Prayer
+11. Spiritual Warfare
+12. Lucid Dreaming
+13. I’m a Soul, Man
 
 ### C BRIDGE
 
-- Cathars Katharsis
-- Infinity’s Intent
+14. Cathars Katharsis
+15. Infinity’s Intent
 
-#### Appendix
+### Appendix
 
 1. Spiritual Armor
 2. Additional Movies
@@ -54,10 +54,13 @@ Note
 5. Planets
 6. Do We Belong Here?
 
-- Glossary
-- Acknowledgments
-- Bibliography
-- About the Author
+#### Glossary
+
+#### Acknowledgments
+
+#### Bibliography
+
+#### About the Author
 
 ## Get it here
 
