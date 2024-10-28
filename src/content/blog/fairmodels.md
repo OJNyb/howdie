@@ -47,9 +47,7 @@ Another example is the guy who built an entire town, called Elgin Park. His stor
 
 I mean could the Chicago World Fair or St. Louis Fair be built for real in two years as presented. No way possible, just due to the amount of earth and material that needs to be moved. However a "portion" of the fair be built, and a midway, some restaurants and whatnot...but make the majority of the fair to be seen only in model form and then that be photographed. That is something that could be done in a 2 year span.
 
--
-
-Fair Passports
+#### Fair Passports
 
 I want to add one last bit of detail and that being the fair passports. Why do any visitors need passports? And why do those we have that survive are of children? In the 1890s an 1900s, the technology required to do this for patrons attending an exhibition would be staggering, and generally just a waste of time and energy. A passport is a document to cross borders. Were the world fair their own cities, like the current UN or Vatican? Were all these children, likely orphans, bought and sold and shipped around the world? Thus the passport would really be their "city state identification" that would then allow someone to take the now purchased children across national borders? Because all of this time and money was not just pumped into making souvenirs for people. There is something very nefarious about all of this, about everything at these fairs, and sadly, not much about them would surprise me anymore.
 
