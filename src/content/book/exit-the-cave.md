@@ -3,6 +3,9 @@ title: "Exit The Cave"
 description: "Ending the Reincarnation Trap - Book 1"
 heroImage: "/ExitTheCaveCover.png"
 pubDate: "Jul 09 2022"
+amazonLink: https://www.amazon.com/Exit-Cave-Ending-Reincarnation-Trap/dp/8269126632/ref=sr_1_2?qid=1688580544&refinements=p_27%3AHowdie+Mickoski&s=books&sr=1-2
+barnesNobleLink: https://www.barnesandnoble.com/w/exit-the-cave-howdie-mickoski/1142655138
+adlibrisLink: https://www.adlibris.com/no/bok/exit-the-cave-9788269126631?gclid=CjwKCAjwov6hBhBsEiwAvrvN6HlWpNF9sYNYxcPz4azTBHlzL9RQ3ySx39IfBDmpjSFTHvjr7g-hQhoCG2AQAvD_BwE
 ---
 
 Most people will say something feels terribly wrong… with reality, the world, life. Why is that? Because something is wrong. This whole experience called “life on Earth” is a falsified lie.
@@ -61,9 +64,3 @@ Exit the Cave takes a candid exploration into the reincarnation trap, by unpacki
 #### Bibliography
 
 #### About the Author
-
-## Get it here
-
-- [Amazon](https://www.amazon.com/Exit-Cave-Ending-Reincarnation-Trap/dp/8269126632/ref=sr_1_2?qid=1688580544&refinements=p_27%3AHowdie+Mickoski&s=books&sr=1-2)
-- [Barnes & Noble](https://www.barnesandnoble.com/w/exit-the-cave-howdie-mickoski/1142655138)
-- [Adlibris](https://www.adlibris.com/no/bok/exit-the-cave-9788269126631?gclid=CjwKCAjwov6hBhBsEiwAvrvN6HlWpNF9sYNYxcPz4azTBHlzL9RQ3ySx39IfBDmpjSFTHvjr7g-hQhoCG2AQAvD_BwE)

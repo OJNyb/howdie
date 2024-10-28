@@ -23,6 +23,9 @@ const book = defineCollection({
     // Transform string to Date object
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
+    amazonLink: z.string().optional(),
+    barnesNobleLink: z.string().optional(),
+    adlibrisLink: z.string().optional(),
   }),
 });
 

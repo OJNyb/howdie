@@ -7,7 +7,14 @@ import FormattedDate from "../components/FormattedDate.astro";
 
 type Props = CollectionEntry<"book">["data"];
 
-const { title, description, updatedDate, heroImage } = Astro.props;
+const {
+  title,
+  description,
+  heroImage,
+  amazonLink,
+  barnesNobleLink,
+  adlibrisLink,
+} = Astro.props;
 ---
 
 <html lang="en">
@@ -24,7 +31,6 @@ const { title, description, updatedDate, heroImage } = Astro.props;
       .hero-image img {
         display: block;
         margin: 0 auto;
-        border-radius: 12px;
         box-shadow: var(--box-shadow);
       }
       .prose {
@@ -43,12 +49,29 @@ const { title, description, updatedDate, heroImage } = Astro.props;
       .title h1 {
         margin: 0 0 0.5em 0;
       }
-      .date {
-        margin-bottom: 0.5em;
-        color: rgb(var(--gray));
+      .purchase {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-top: 64px;
       }
-      .last-updated-on {
-        font-style: italic;
+      .purchase-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 210px;
+        padding: 32px;
+        box-sizing: border-box;
+        box-shadow: var(--box-shadow);
+        text-decoration: none;
+        border-radius: 0.5em;
+      }
+      .purchase-link:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -66,19 +89,36 @@ const { title, description, updatedDate, heroImage } = Astro.props;
         </div>
         <div class="prose">
           <div class="title">
-            <div class="date">
-              {
-                updatedDate && (
-                  <div class="last-updated-on">
-                    Last updated on <FormattedDate date={updatedDate} />
-                  </div>
-                )
-              }
-            </div>
             <h1>{title}</h1>
             <hr />
           </div>
           <slot />
+          <div class="purchase">
+            {
+              amazonLink && (
+                <a href={amazonLink} class="purchase-link">
+                  <img src="/amazon.png" width="64px" />
+                  <span>Amazon</span>
+                </a>
+              )
+            }
+            {
+              barnesNobleLink && (
+                <a href={barnesNobleLink} class="purchase-link">
+                  <img src="/barnesnoble.png" width="64px" />
+                  <span>Barnes & Noble</span>
+                </a>
+              )
+            }
+            {
+              adlibrisLink && (
+                <a href={adlibrisLink} class="purchase-link">
+                  <img src="/adlibris.png" width="64px" />
+                  <span>Adlibris</span>
+                </a>
+              )
+            }
+          </div>
         </div>
       </article>
     </main>

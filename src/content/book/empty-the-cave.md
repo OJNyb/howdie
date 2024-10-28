@@ -3,6 +3,7 @@ title: "Empty The Cave"
 description: "Ending the Reincarnation Trap - Book 1"
 heroImage: "/empt-cave-front.jpg"
 pubDate: "Jul 10 2022"
+amazonLink: "https://a.co/d/0uloHBx"
 ---
 
 So, you want to Exit Plato's Cave/the Matrix? It is a very grand quest to take on. However, it might not be what you think it is. Such a quest cannot be defined in words, so nothing in this book can possibly describe it. That is because Exiting the Matrix has nothing to do with “you,” as it is an Exit of yourself as much as the Cave.
@@ -34,7 +35,3 @@ So, you want to Exit Plato's Cave/the Matrix? It is a very grand quest to take o
 #### Bibliography 247
 
 #### About the Author 249
-
-## Get it here
-
-- [Amazon](https://a.co/d/0uloHBx)

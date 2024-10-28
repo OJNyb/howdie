@@ -3,6 +3,9 @@ title: "Hockey's Origin Unmasked"
 description: "The Hidden Hand Covering a Native Source"
 heroImage: "/hockey-origin-unmasked.PNG"
 pubDate: "Jul 08 2022"
+amazonLink: https://www.amazon.com/dp/8269126659/ref=sr_1_5?qid=1696491451&refinements=p_27%3AHowdie+Mickoski&s=books&sr=1-5&text=Howdie+Mickoski
+barnesNobleLink: https://www.barnesandnoble.com/w/hockeys-origin-unmasked-howdie-mickoski/1144174089?ean=9788269126655
+adlibrisLink: https://www.adlibris.com/no/bok/hockeys-origin-unmasked-9788269126655
 ---
 
 The Hidden Hand Covering a Native Source
@@ -17,9 +20,3 @@ There also seems to be covering over of the Native American stick-and-ball ice g
 
 Be prepared to be surprised!
 [SAMPLE CHAPTER](hockey-origin-unmasked.pdf)
-
-## Get it here
-
-- [Amazon](https://www.amazon.com/dp/8269126659/ref=sr_1_5?qid=1696491451&refinements=p_27%3AHowdie+Mickoski&s=books&sr=1-5&text=Howdie+Mickoski)
-- [Barnes & Noble](https://www.barnesandnoble.com/w/hockeys-origin-unmasked-howdie-mickoski/1144174089?ean=9788269126655)
-- [Adlibris](https://www.adlibris.com/no/bok/hockeys-origin-unmasked-9788269126655)
