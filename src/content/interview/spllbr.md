@@ -1,7 +1,6 @@
 ---
-title: "SpExpanding Your Reality"
-description: "Outstanding conversation on various elements of this reality and the Divine Spark
-"
-link: "https://www.youtube.com/watch?v=mmt2dn6_vS4"
-pubDate: "January 5, 2024"
+title: "Spellbreakers"
+description: "Escaping the Simulation"
+link: "https://rumble.com/v4dsoz2-live-w-howdie-mickoski-escaping-the-simulation.html"
+pubDate: "February 22, 2024"
 ---
