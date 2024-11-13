@@ -1,6 +1,6 @@
 ---
-title: "Age Of Truth TV"
-description: "Simulation Reality Game & Death Soul Trap"
-link: "https://www.youtube.com/watch?v=AmWzn_inyZk"
-pubDate: "Sep 20, 2023"
+title: "Open Your Reality 2"
+description: "Don't Go Towards The Light"
+link: "https://youtu.be/wKeZnIDXPIE"
+pubDate: "Dec 4, 2022"
 ---
