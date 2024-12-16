@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 
-const posts = (await getCollection("book")).sort(
+const books = (await getCollection("book")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
@@ -66,11 +66,11 @@ const posts = (await getCollection("book")).sort(
   <h2>Books</h2>
   <ul>
     {
-      posts.map((post) => (
+      books.map((book) => (
         <li>
-          <a href={`/book/${post.slug}/`}>
-            <img src={post.data.heroImage} alt="" />
-            <h4 class="title">{post.data.title}</h4>
+          <a href={`/book/${book.slug}/`}>
+            <img src={book.data.heroImage} alt={book.data.title + " cover"} />
+            <h4 class="title">{book.data.title}</h4>
           </a>
         </li>
       ))

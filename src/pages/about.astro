@@ -1,10 +1,11 @@
 ---
 import Layout from "../layouts/BlogPost.astro";
+import { SITE_TITLE } from "../consts";
 ---
 
 <Layout
-  title="About Me"
-  description="Lorem ipsum dolor sit amet"
+  title={"About | " + SITE_TITLE}
+  description="Howdie Mickoski is originally from Canada, but now lives in Norway. For the last 25 years he has studied ancient wisdom traditions of the world. He spent most of his earlier life as a stand up comedian, and writer of sports history."
   pubDate={new Date("Oct 27 2024")}
   heroImage="/portrait.png"
 >

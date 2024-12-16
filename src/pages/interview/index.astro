@@ -11,10 +11,12 @@ const interviews = (await getCollection("interview")).sort(
 );
 ---
 
-<!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead
+      title={"Interviews | " + SITE_TITLE}
+      description={SITE_DESCRIPTION}
+    />
     <style>
       h2 {
         text-align: center;

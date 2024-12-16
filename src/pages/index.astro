@@ -6,85 +6,84 @@ import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
-<style>
-  main {
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-    padding-bottom: 64px;
-  }
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .community {
-    color: #fff;
-    background-color: rgb(var(--gray-dark));
-    flex-direction: row;
-    padding: 66px;
-    gap: 66px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .community h2 {
-    color: inherit;
-  }
-
-  .community a {
-    color: #000;
-    width: 224px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  .community p {
-    max-width: 560px;
-  }
-  .community a:hover {
-    text-decoration: underline;
-  }
-  .social-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 64px;
-    row-gap: 12px;
-    padding: 0 64px;
-  }
-  .social-link {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-
-    font-weight: 600;
-    font-size: 1em;
-
-    padding: 12px 0 0;
-    text-decoration: none;
-  }
-  .social-link img {
-    margin-bottom: 6px;
-  }
-</style>
-
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead title={"Home | " + SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        padding-bottom: 64px;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .community {
+        color: #fff;
+        background-color: rgb(var(--gray-dark));
+        flex-direction: row;
+        padding: 66px;
+        gap: 66px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .community h2 {
+        color: inherit;
+      }
+
+      .community a {
+        color: #000;
+        width: 224px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      .community p {
+        max-width: 560px;
+      }
+      .community a:hover {
+        text-decoration: underline;
+      }
+      .social-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 64px;
+        row-gap: 12px;
+        padding: 0 64px;
+      }
+      .social-link {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+
+        font-weight: 600;
+        font-size: 1em;
+
+        padding: 12px 0 0;
+        text-decoration: none;
+      }
+      .social-link img {
+        margin-bottom: 6px;
+      }
+    </style>
   </head>
   <body>
     <Header />
     <main>
       <section class="community">
-        <img src="cave.jpg" width="560" />
+        <img src="cave.jpg" width="560" alt="Cave" />
         <div>
           <h2>Exit the Cave discussions</h2>
           <p>
@@ -114,7 +113,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
           >
             <img
               src="/youtube_social_icon_red.png"
-              alt=""
+              alt="YouTube"
               width="48"
               height="48"
             />
@@ -127,7 +126,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
           >
             <img
               src="/Rumble_logo_2022.svg.png"
-              alt=""
+              alt="Rumble"
               width="124"
               height="48"
             />
@@ -138,12 +137,16 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
             target="_blank"
             class="social-link"
           >
-            <img src="/BitChute_Logo.png" alt="" width="124" height="48" />
+            <img
+              src="/BitChute_Logo.png"
+              alt="BitChute"
+              width="124"
+              height="48"
+            />
             <span>Bitchute</span>
           </a>
         </div>
       </section>
     </main>
-  </body>
-  <Footer />
+  </body><Footer />
 </html>
