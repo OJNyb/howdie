@@ -39,5 +39,12 @@ const interview = defineCollection({
     pubDate: z.coerce.date(),
   }),
 });
+const thanks = defineCollection({
+  type: "content",
+  // Type-check frontmatter using a schema
+  schema: z.object({
+    title: z.string(),
+  }),
+});
 
-export const collections = { blog, book, interview };
+export const collections = { blog, book, interview, thanks };

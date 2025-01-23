@@ -7,5 +7,10 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://howdiemickoski.com/",
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap({
+      filter: (page) => !page.startsWith("/thanks/"), // Exclude /thanks/* from the sitemap
+    }),
+  ],
 });
