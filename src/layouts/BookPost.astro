@@ -63,8 +63,9 @@ const {
         align-items: center;
         justify-content: center;
         background-color: #fff;
-        width: 260px;
-        margin:0 12px;
+        width: 250px;
+        margin: 0 12px;
+        font-size: 22px;
         padding: 32px;
         box-sizing: border-box;
         box-shadow: var(--box-shadow);
@@ -78,6 +79,11 @@ const {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+      }
+      .stripe-box p {
+        margin: 32px 0 0;
+        font-weight: 600;
       }
     </style>
   </head>
@@ -100,19 +106,24 @@ const {
           </div>
           <slot />
 
-          <div class="purchase">
-            {
-              stripeId && (
-                // <div class="stripe-box">
+          {
+            stripeId && (
+              <>
+                <hr />
+                <div class="stripe-box">
+                  <p>Buy eBook directly</p>
                   <script async src="https://js.stripe.com/v3/buy-button.js" />
                   <stripe-buy-button
                     buy-button-id={stripeId}
                     publishable-key="pk_live_51Ls0BKAkbavZFm6JksEdDQxJ02AAuXPLhrFj4kt0VjTf5B23HvUGxgIzJwfeHJKvC0h1BEymCdmtfJuEkPA2RsfD001CRQvmKl"
                   />
-                // </div>
-              )
-            }
+                </div>
+              </>
+            )
+          }
+          <hr />
 
+          <div class="purchase">
             {
               amazonLink && (
                 <a href={amazonLink} class="purchase-link">
