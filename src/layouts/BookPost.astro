@@ -13,6 +13,7 @@ const {
   amazonLink,
   barnesNobleLink,
   adlibrisLink,
+  stripeId,
 } = Astro.props;
 ---
 
@@ -62,7 +63,8 @@ const {
         align-items: center;
         justify-content: center;
         background-color: #fff;
-        width: 210px;
+        width: 260px;
+        margin:0 12px;
         padding: 32px;
         box-sizing: border-box;
         box-shadow: var(--box-shadow);
@@ -71,6 +73,11 @@ const {
       }
       .purchase-link:hover {
         text-decoration: underline;
+      }
+      .stripe-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     </style>
   </head>
@@ -92,7 +99,20 @@ const {
             <hr />
           </div>
           <slot />
+
           <div class="purchase">
+            {
+              stripeId && (
+                // <div class="stripe-box">
+                  <script async src="https://js.stripe.com/v3/buy-button.js" />
+                  <stripe-buy-button
+                    buy-button-id={stripeId}
+                    publishable-key="pk_live_51Ls0BKAkbavZFm6JksEdDQxJ02AAuXPLhrFj4kt0VjTf5B23HvUGxgIzJwfeHJKvC0h1BEymCdmtfJuEkPA2RsfD001CRQvmKl"
+                  />
+                // </div>
+              )
+            }
+
             {
               amazonLink && (
                 <a href={amazonLink} class="purchase-link">

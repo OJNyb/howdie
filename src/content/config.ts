@@ -26,6 +26,7 @@ const book = defineCollection({
     amazonLink: z.string().optional(),
     barnesNobleLink: z.string().optional(),
     adlibrisLink: z.string().optional(),
+    stripeId: z.string().optional(),
   }),
 });
 
