@@ -5,6 +5,8 @@ heroImage: "/empt-cave-front.jpg"
 pubDate: "Jul 10 2022"
 amazonLink: "https://a.co/d/0uloHBx"
 stripeId: "buy_btn_1Qkp46AkbavZFm6JCZaLKVKb"
+barnesNobleLink: "https://www.barnesandnoble.com/w/empty-the-cave-howdie-mickoski/1146643184?ean=9788294094035"
+adlibrisLink: "https://www.adlibris.com/nb/bok/empty-the-cave-9788294094035"
 ---
 
 So, you want to Exit Plato's Cave/the Matrix? It is a very grand quest to take on. However, it might not be what you think it is. Such a quest cannot be defined in words, so nothing in this book can possibly describe it. That is because Exiting the Matrix has nothing to do with “you,” as it is an Exit of yourself as much as the Cave.
