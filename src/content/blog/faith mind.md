@@ -1,6 +1,6 @@
 ---
 title: "Faith Mind Sutra"
-heroImage: "/blog/ps bus.jpg"
+heroImage: "/blog/fms.png"
 pubDate: "Sep 5 2025"
 description: ""
 ---
