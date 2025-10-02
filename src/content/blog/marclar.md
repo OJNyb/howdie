@@ -3,8 +3,8 @@ title: "March Clarity"
 heroImage: "/blog/recapitulation.jpeg"
 pubDate: "Oct 2 2025"
 description: ""
----
-The
+
+
 March Clarity
 March 19, 2025
 
