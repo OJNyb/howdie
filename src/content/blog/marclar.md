@@ -5,9 +5,6 @@ pubDate: "Oct 2 2025"
 description: ""
 
 
-From
-March 19, 2025
-
 	This conversation took place with my Locals community regarding a variety of key subjects on the Empty the Cave path. I will share the discussion here, with questions that were presented and my responses. The questions were given in a live online conversation, thus the questions will seem much shorter than would have been asked if this were occurring in a gathering or discussion of people in a physical location.
 
 	Q: I have more questions around the recapitulation.
