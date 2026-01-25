@@ -25,16 +25,15 @@ const posts = (await getCollection("blog")).sort(
       }
       ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 2rem;
         list-style-type: none;
         margin: 0;
         padding: 0;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
       }
-      ul li {
-        width: calc(50% - 0rem);
-      }
+
       ul li * {
         text-decoration: none;
         transition: 0.2s ease;
@@ -64,7 +63,6 @@ const posts = (await getCollection("blog")).sort(
       }
       @media (max-width: 9920px) {
         ul li {
-          width: 100%;
           text-align: center;
         }
       }

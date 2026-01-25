@@ -7,7 +7,7 @@ import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 
 const interviews = (await getCollection("interview")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
@@ -28,16 +28,15 @@ const interviews = (await getCollection("interview")).sort(
       }
       ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 2rem;
         list-style-type: none;
         margin: 0;
         padding: 0;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
       }
-      ul li {
-        width: calc(50% - 0rem);
-      }
+
       ul li * {
         text-decoration: none;
         transition: 0.2s ease;
@@ -67,7 +66,6 @@ const interviews = (await getCollection("interview")).sort(
       }
       @media (max-width: 9920px) {
         ul li {
-          width: 100%;
           text-align: center;
         }
       }
@@ -76,12 +74,15 @@ const interviews = (await getCollection("interview")).sort(
   <body>
     <Header />
     <main>
-      <h5>While I have done over 500 interviews now on a variety of subjects, these
-      I consider to be some of the best, and a great place to learn more on what
-      I have to share. You can search the various video platforms for other 
-      interviews I have done between 2020 and the present. Please click on the title.</h5>
-      <br>
-      <br>
+      <h5>
+        While I have done over 500 interviews now on a variety of subjects,
+        these I consider to be some of the best, and a great place to learn more
+        on what I have to share. You can search the various video platforms for
+        other interviews I have done between 2020 and the present. Please click
+        on the title.
+      </h5>
+      <br />
+      <br />
       <section>
         <ul>
           {
