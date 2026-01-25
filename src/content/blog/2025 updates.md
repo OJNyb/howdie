@@ -9,7 +9,7 @@ This is to share some of the new things going forward for 2025. First off the lo
 
 https://howdiemickoski.locals.com
 
-I have begun to read my book Exposing the Epositions as audio chapters. It is almost seven years since the book first came out, and since I am no longer discussing the book in interviews and whatnot, felt it was time to make fully available so that others can take the research even deeper.A new chapter will appear every few days. You can read the first chapter at either of the links below, and then follow on from there. 
+I have begun to read my book Exposing the Epositions as audio chapters. It is almost seven years since the book first came out, and since I am no longer discussing the book in interviews and whatnot, felt it was time to make fully available so that others can take the research even deeper.A new chapter will appear every few days. You can read the first chapter at either of the links below, and then follow on from there.
 
 https://rumble.com/v6bddt4-exposing-the-expostions-chapter-1.html?e9s=src_v1_upp
 
@@ -17,11 +17,8 @@ https://www.youtube.com/watch?v=oPjy2fIGKIs
 
 I have also started to add some updates on my Sports channel, starting with details of the 1972 Summit Series between Canada and the Soviet Union. The start of that, (which is actually part two) can be found at the link below.
 
- https://www.youtube.com/watch?v=GVscLMj9Jg4
+https://www.youtube.com/watch?v=GVscLMj9Jg4
 
 Beyond that I have 4 different books as possible things to write in the months ahead, but as yet one has not jumped at me as the obvious next in the writing call, so for now I am just sitting with them and seeing what comes to mind.
 
 Wishing you a powerful 2025. My sense it will be quite free flowing and fast changing. The more clear and aware one is in any moment, the easier it will be to know the choice required in any moment given the newly presented circumstances.
-
-
-

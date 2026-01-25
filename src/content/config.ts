@@ -5,9 +5,8 @@ const blog = defineCollection({
   // Type-check frontmatter using a schema
   schema: z.object({
     title: z.string(),
-    // Transform string to Date object
-    description: z.string(),
     pubDate: z.coerce.date(),
+    description: z.string().optional(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
     pdfLink: z.string().optional(),
@@ -21,7 +20,6 @@ const book = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
-    // Transform string to Date object
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),
     amazonLink: z.string().optional(),

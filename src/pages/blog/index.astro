@@ -81,7 +81,7 @@ const posts = (await getCollection("blog")).sort(
                 <a
                   href={
                     post.data.pdfLink
-                      ? post.data.pdfLink
+                      ? `/blog/${post.data.pdfLink}`
                       : `/blog/${post.slug}/`
                   }
                 >
