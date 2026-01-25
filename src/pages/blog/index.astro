@@ -7,7 +7,7 @@ import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 
 const posts = (await getCollection("blog")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
@@ -15,6 +15,10 @@ const posts = (await getCollection("blog")).sort(
   <head>
     <BaseHead title={"Blog | " + SITE_TITLE} description={SITE_DESCRIPTION} />
     <style>
+      h5 {
+        text-align: center;
+        margin-bottom: 1em;
+      }
       main {
         max-width: 960px;
         padding: 64px 32px;
@@ -26,9 +30,10 @@ const posts = (await getCollection("blog")).sort(
         list-style-type: none;
         margin: 0;
         padding: 0;
+        justify-content: space-between;
       }
       ul li {
-        width: calc(50% - 1rem);
+        width: calc(50% - 0rem);
       }
       ul li * {
         text-decoration: none;
@@ -57,7 +62,7 @@ const posts = (await getCollection("blog")).sort(
       ul a:hover img {
         box-shadow: var(--box-shadow);
       }
-      @media (max-width: 720px) {
+      @media (max-width: 9920px) {
         ul li {
           width: 100%;
           text-align: center;
@@ -73,8 +78,13 @@ const posts = (await getCollection("blog")).sort(
           {
             posts.map((post) => (
               <li>
-                <a href={`/blog/${post.slug}/`}>
-                  <img width={420} height={360} src={post.data.heroImage} />
+                <a
+                  href={
+                    post.data.pdfLink
+                      ? post.data.pdfLink
+                      : `/blog/${post.slug}/`
+                  }
+                >
                   <h4 class="title">{post.data.title}</h4>
                   <p class="date">
                     <FormattedDate date={post.data.pubDate} />
