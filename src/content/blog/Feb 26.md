@@ -2,7 +2,7 @@
 title: "Updates February 2026"
 heroImage:
 pubDate: "Feb 25 2026"
-description: ""
+
 ---
 
 I wanted to let everyone know that the new book is coming along, all be it, much slower than I originally thought. It is going to take several more months of work. I think there is going to be value in it, and I don't want to rush anything out with my books anymore. They take the time they take.
