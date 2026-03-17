@@ -1,6 +1,6 @@
 ---
 title: "Times are a Changing"
-pubDate: "Mar 16 2026"
+pubDate: "Mar 17 2026"
 pdfLink: "March173.pdf"
 ---
 
