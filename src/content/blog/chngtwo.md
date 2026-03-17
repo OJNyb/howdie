@@ -1,5 +1,5 @@
 ---
-title: "The Chainging Times"
+title: "The Changing Times"
 pubDate: "Mar 17 2026"
 description: ""
 ---
