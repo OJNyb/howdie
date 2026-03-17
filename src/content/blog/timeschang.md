@@ -1,7 +1,7 @@
 ---
-title: "Times are a Changing"
+title: "Times are a changing"
 pubDate: "Mar 16 2026"
-pdfLink: "March173.pdf"
+pdfLink: "march173.pdf"
 ---
 
 
