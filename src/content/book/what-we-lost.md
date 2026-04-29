@@ -1,5 +1,5 @@
 ---
-title: "New Book Soon"
+title: "What We Lost"
 description: "New Book April 2026"
 heroImage: "/whatwecov.png"
 pubDate: "Jan 015 2026"
