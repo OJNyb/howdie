@@ -1,7 +1,7 @@
 ---
 title: "New Book Soon"
 description: "New Book April 2026"
-heroImage: "/cs1.jpg"
+heroImage: "/whatwecov.png"
 pubDate: "Jan 015 2026"
 
 ---
