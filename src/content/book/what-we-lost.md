@@ -17,7 +17,7 @@ one needs to see both the lost elements as well as the covering that has tried t
 “This was quite a difficult book to read from an emotional perspective. I feel sad for myself and for everyone else for these lost opportunities. Powerful book you have here Mr Mickoski.” L.W
 
 
-[SAMPLE CHAPTER 1](webschap1.pdf)
-[SAMPLE CHAPTER 2](webschap2.pdf)
+[SAMPLE CHAPTER 1](/webschap1.pdf)
+[SAMPLE CHAPTER 2](/webschap2.pdf)
 
 Book available in early May, when it is, bookstore links will appear here
