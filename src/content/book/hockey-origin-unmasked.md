@@ -19,4 +19,4 @@ So what happened regarding the supposed “first game of organized hockey” in 
 There also seems to be covering over of the Native American stick-and-ball ice games, particularly those of the Mi'kmaq of Nova Scotia. They might be the true originators of hockey. Yet, they have a story that may link them to Ancient Egypt, Norwegian Vikings and the Knights Templar. What began as a simple examination of the origin of hockey, became a dive into the history of the 1800s.
 
 Be prepared to be surprised!
-[SAMPLE CHAPTER](hockey-origin-unmasked.pdf)
+[SAMPLE CHAPTER](/hockeyorigin.pdf)
