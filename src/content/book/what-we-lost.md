@@ -3,7 +3,7 @@ title: "What We Lost"
 description: "New Book April 2026"
 heroImage: "/whatwecov.png"
 pubDate: "Jan 015 2026"
-
+amazonLink: "https://a.co/d/0bdktDfa"
 ---
 
 What We Lost: Natural adults and the world they inhabited.
