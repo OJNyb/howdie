@@ -1,7 +1,7 @@
 ---
 title: "It has been quite a week"
 pubDate: "May 21 2026"
-
+pdfLink: "quitea.pdf"
 ---
 It Has Been Quite a Week
 So I tried making a video on Friday, and I got through about one minute of it, and had to stop. I couldn't keep looking at a screen and talking. It is one thing when having a conversation on a screen with another person, even though that is starting to feel strange, but here where I was talking to no one but the screen is feeling completely un-natural and foreign.
