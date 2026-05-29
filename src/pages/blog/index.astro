@@ -80,7 +80,7 @@ const posts = (await getCollection("blog")).sort(
                   href={
                     post.data.pdfLink
                       ? `/blog/${post.data.pdfLink}`
-                      : `/blog/${post.slug}/`
+                      : `/blog/${post.id}/`
                   }
                 >
                   <h4 class="title">{post.data.title}</h4>
