@@ -68,7 +68,7 @@ const books = (await getCollection("book")).sort(
     {
       books.map((book) => (
         <li>
-          <a href={`/book/${book.slug}/`}>
+          <a href={`/book/${book.id}/`}>
             <img src={book.data.heroImage} alt={book.data.title + " cover"} />
             <h4 class="title">{book.data.title}</h4>
           </a>
