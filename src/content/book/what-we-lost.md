@@ -6,6 +6,7 @@ pubDate: "Jan 015 2026"
 amazonLink: "https://a.co/d/0bdktDfa"
 barnesNobleLink: "https://www.barnesandnoble.com/w/what-we-lost-howdie-mickoski/1150074497?ean=9788294094080"
 adlibrisLink: "https://www.adlibris.com/sv/bok/what-we-lost-9788294094080"
+stripeId: "buy_btn_1TjfcqAkbavZFm6JgXZE0IqS"
 ---
 
 What We Lost: Natural adults and the world they inhabited.
