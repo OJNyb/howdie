@@ -1,5 +1,5 @@
 ---
-title: "Robert Monroe's Ultimate Journey"
-pubDate: "Jun 14 2026"
-pdfLink: "monroej.pdf"
+title: "Timing and Patience"
+pubDate: "Jun 26 2026"
+pdfLink: "timing.pdf"
 ---
